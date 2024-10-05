@@ -1,0 +1,10 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.app_container{
+    font-family:  "Roboto", system-ui;
+    font-weight: 300;
+    font-style: normal;
+}

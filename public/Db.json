@@ -1,0 +1,23 @@
+{
+  "auth": [
+    {
+      "isAdmin": true,
+      "name": "",
+      "password": "",
+      "role": "admin",
+      "id": "ca8c"
+    }
+  ],
+  "product": [
+    {}
+  ],
+  "cart": [],
+  "user": [],
+  "subscribe": [
+    {
+      "id": "4a52",
+      "name": "rahul",
+      "email": "rahul@gmail.com"
+    }
+  ]
+}

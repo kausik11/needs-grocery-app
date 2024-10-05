@@ -1,0 +1,24 @@
+.ItemContainer{
+    background-color: rgb(223, 205, 205);
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 10px;
+}
+.ItemContainer .Item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+   min-height: 300px;
+   min-width: 200px;
+}
+.ItemContainer img{
+    min-width: 200px;
+    max-height: 180px;
+    border: 1px dashed black;
+    
+}

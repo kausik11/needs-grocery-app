@@ -1,0 +1,81 @@
+.logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    max-width: 200px;
+    flex-wrap: nowrap;
+    cursor: pointer;
+}
+.logo img{
+    width: 30px;
+    transform: rotate(-20deg);   
+    z-index: 1; 
+    position: absolute;
+    left: 230px;
+    top: 44px;
+}
+.logo p{
+    color: black;
+    font-size: 20px;
+    position: relative;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+}
+
+.header_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 50px;
+    flex-wrap: wrap;
+}
+.header_container ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    flex-basis: 400px;  
+    
+}
+.header_container ul li{
+    list-style-type: none;
+    gap: 10px;
+    font-weight: 500;
+    cursor: pointer;
+    color: red;
+}
+.header_container ul li Link{
+    text-decoration: none;
+    color: red;
+}
+
+.header_container_right{
+    align-self: center;
+    flex-basis: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+.dot{
+    position: absolute;
+    min-width: 20px;
+    min-height: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    top:12px;
+    right: -2px;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+}
+.headersearchbar{
+    flex-basis: 50vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    
+}
