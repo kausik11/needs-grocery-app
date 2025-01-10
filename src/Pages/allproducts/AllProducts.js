@@ -6,8 +6,9 @@ import { useNavigate } from 'react-router-dom';
 // import { items } from '../../assets/assets';
 const AllProducts = () => {
 
-  const {AllItems} = useContext(StoreContext);
-  console.log(AllItems);
+  const {AllItems,product} = useContext(StoreContext);
+  console.log("all items page data",AllItems);
+  console.log("all item page",product)
 
   const navigate = useNavigate();
 
@@ -15,15 +16,16 @@ const AllProducts = () => {
      navigate(`/productdetails/${id}`)
   }
 
+
   const [currentPage,setCurrentPage] = useState(1);//track current page
   const itemsPerPage = 6;
 
-  const TotalPage = Math.ceil(AllItems.length/itemsPerPage);
+
+    const TotalPage = Math.ceil(AllItems.length/itemsPerPage);
 
   const startIndex = (currentPage-1) * itemsPerPage;
 
   const currentItems = AllItems.slice(startIndex,startIndex+itemsPerPage);
-
 
   const handleNext = ()=>{
     if (currentPage< TotalPage) {
@@ -36,6 +38,13 @@ const AllProducts = () => {
       setCurrentPage((prevpage)=>prevpage-1)
     }
   }
+
+  
+
+  
+
+
+ 
   return (
     <div className='allprodContainer'>
       <Header/>

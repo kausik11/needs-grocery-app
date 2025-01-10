@@ -2,21 +2,146 @@
   "auth": [
     {
       "isAdmin": true,
-      "name": "",
-      "password": "",
+      "name": "demo",
+      "password": "1234",
       "role": "admin",
       "id": "ca8c"
+    },
+    {
+      "id": "e701",
+      "isAdmin": true,
+      "name": "demo1",
+      "password": "1234",
+      "role": "admin"
     }
   ],
   "product": [
+    {
+      "id": "4ace",
+      "img1": "https://plus.unsplash.com/premium_photo-1725075086631-b21a5642918b?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y29sZCUyMGRyaW5rfGVufDB8fDB8fHww",
+      "img2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIvIO4w375gYM64e-b3ySIx22F2SSi0_Qecg&s",
+      "img3": "https://m.media-amazon.com/images/I/81cwNNnK8SL.jpg",
+      "img4": "https://e7.pngegg.com/pngimages/820/177/png-clipart-coca-cola-fizzy-drinks-diet-coke-pepsi-cold-acid-ling-glass-cola-thumbnail.png",
+      "pname": "cocacola",
+      "pprice": 70,
+      "bestselling": "true",
+      "category": "beverages",
+      "pdesc": "good soft drinks"
+    },
+    {
+      "id": "18d1",
+      "img1": "https://flowera.in/uploads/tempDir/Heart-Shape-Red-velvet-cake-600X600.webp",
+      "img2": "https://whipped.in/cdn/shop/products/zyro-image_36_1800x1800.jpg?v=1686824457",
+      "img3": "https://whipped.in/cdn/shop/files/WhatsAppImage2023-12-12at11.29.28PM.jpg?v=1702487243",
+      "img4": "https://zukachocolates.com/wp-content/uploads/2021/03/FULLY-LOADED-CHOCOLATE-TRUFFLE-CAKE-1-1200x900.jpg",
+      "pname": "choclate cake",
+      "pprice": 200,
+      "bestselling": "true",
+      "category": "bakery",
+      "pdesc": "good choclate cake ever"
+    },
+    {
+      "id": "b84e",
+      "img1": "https://www.bhg.com/thmb/ov2S31znAvSCXqrpgJQ8rwBgzp8=/2250x0/filters:no_upscale():strip_icc()/BHG-milk-bread-4CdeIL1uKGyB5ryU8J_EED-aaa76729c86a413ca7500029edba79f0.jpg",
+      "img2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6ozOVUG7lZnZSGc3n6ATPNkMQY1zLsyIcFA&s",
+      "img3": "https://www.allrecipes.com/thmb/CjzJwg2pACUzGODdxJL1BJDRx9Y=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/6788-amish-white-bread-DDMFS-4x3-6faa1e552bdb4f6eabdd7791e59b3c84.jpg",
+      "img4": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjgv3vusjlcfBRxJ389pTd5nTU9GWB9BrDsg&s",
+      "pname": "bread",
+      "pprice": 100,
+      "bestselling": "false",
+      "category": "bakery",
+      "pdesc": "good quality bread"
+    },
+    {
+      "id": "9446",
+      "img1": "https://www.simplyrecipes.com/thmb/Sw2rWO2l615LjOnmUyDIWjAMDKg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2007__04__honey-glazed-roast-chicken-horiz-a-1800-2057270028084ff2bdb54fcb0f2d3227.jpg",
+      "img2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRC9h_IVn_rlOJqzX-aHcCfe0mY6CJ-zZ0EwA&s",
+      "img3": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYcROxRR5t1kL0p3XMM2PEZSbiaZluwI05fg&s",
+      "img4": "https://images.ctfassets.net/ruek9xr8ihvu/78oruTPv9K2gzZI5eh3usz/d19d8214375da4f47678bc7089c301a4/chicken_for_babies_Solid_Starts.jpg?w=2000&q=80&fm=webp",
+      "pname": "chicken",
+      "pprice": 500,
+      "bestselling": "true",
+      "category": "dairy",
+      "pdesc": "good quality chicken"
+    },
+    {
+      "id": "a1dc",
+      "img1": "https://5.imimg.com/data5/SELLER/Default/2023/9/344928632/OW/RQ/XC/25352890/yellow-mango.jpeg",
+      "img2": "https://media.istockphoto.com/id/1352881713/photo/mango-fruit-with-drops-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=xNgofvhPOsksKtOMK9sbvQ2qZpMS6WQ3UC6Omv7g8-0=",
+      "img3": "https://rukminim2.flixcart.com/image/850/1000/xif0q/shopsy-plant-sapling/r/e/d/annual-no-yes-glenn-mango-plant-grafted-1-punarva-original-imah3ckqkf2rm73w.jpeg?q=90&crop=false",
+      "img4": "https://m.media-amazon.com/images/I/31cXlUcvRVL._AC_UF894,1000_QL80_.jpg",
+      "pname": "mango",
+      "pprice": 200,
+      "bestselling": "true",
+      "category": "fruits",
+      "pdesc": "good quality mango"
+    },
+    {
+      "id": "0c7a",
+      "img1": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ6C-otq8c7ebzt9eDg7pYLhSLFlvOzvycWA&s",
+      "img2": "https://www.oifood.in/files/products/a72149b36c2f8cb0939311e8aa4a41a8.jpg",
+      "img3": "https://www.freshtohome.com/blog/wp-content/uploads/2024/08/goat-curry-cut.jpg",
+      "img4": "https://frugivore-bucket.s3.amazonaws.com/media/package/img_one/2023-11-01/mutton_500g__1kg_b4adMcT.jpg",
+      "pname": "mutton",
+      "pprice": 800,
+      "bestselling": "true",
+      "category": "meat",
+      "pdesc": "good quality mutton"
+    },
+    {
+      "id": "b1e2",
+      "img1": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGDzqK3qIxbmFRjyORMPDeq63CgWTVrFTfcQ&s",
+      "img2": "https://cdn.britannica.com/55/157155-050-D07F5610/Containers-olive-oil.jpg",
+      "img3": "https://m.media-amazon.com/images/I/71qTlx+7CzL.jpg",
+      "img4": "https://images.healthshots.com/healthshots/en/uploads/2024/07/08154320/olive-oil.jpg",
+      "pname": "mustered oil",
+      "pprice": 300,
+      "bestselling": "true",
+      "category": "oil",
+      "pdesc": "good quality oil"
+    }
   ],
-  "cart": [],
-  "user": [],
+  "cart": [{
+    "id": "9446",
+    "pname": "chicken",
+    "pprice": 500,
+    "pquantity": 2,
+    "pimg":"https://images.ctfassets.net/ruek9xr8ihvu/78oruTPv9K2gzZI5eh3usz/d19d8214375da4f47678bc7089c301a4/chicken_for_babies_Solid_Starts.jpg?w=2000&q=80&fm=webp"
+  },{
+    "id": "9447",
+    "pname": "cake",
+    "pprice": 200,
+    "pquantity": 1,
+    "pimg":"https://flowera.in/uploads/tempDir/Heart-Shape-Red-velvet-cake-600X600.webp"
+  }],
+  "user": [
+    {
+      "id": "d98f",
+      "fname": "rahul",
+      "lname": "kumar",
+      "usermobile": 8013559045,
+      "pass": 1234,
+      "email": "rahul@1234"
+    },
+    {
+      "id": "d0f3",
+      "fname": "rahul2",
+      "lname": "kumar2",
+      "usermobile": 8013559046,
+      "pass": 1234,
+      "email": "rahul2@1234"
+    }
+  ],
   "subscribe": [
     {
       "id": "4a52",
       "name": "rahul",
       "email": "rahul@gmail.com"
+    },
+    {
+      "id": "4a02",
+      "name": "rahul2",
+      "email": "rahul2@gmail.com"
     }
   ]
 }

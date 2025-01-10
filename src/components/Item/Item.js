@@ -2,16 +2,18 @@ import React from 'react'
 import './Item.css'
 
 const Item = ({bestitem}) => {
-    let allbestitem = bestitem();
+  
+    // let allbestitem = bestitem();
+    // console.log("best item",bestitem)
   return (
     <div className='ItemContainer'>
-      {allbestitem.map((currele)=>{
+      {bestitem.map((currele)=>{
         return(
             <div key={currele.id} className='Item'>
-            <img src={currele.image}></img>
-             <p>{currele.name}</p>
-             <p>${currele.price}</p>
-             <p>{currele.description}</p>
+            <img src={currele.img1}></img>
+             <p>{currele.pname}</p>
+             <p>${currele.pprice}</p>
+             <p>{currele.pdesc}</p>
              <button>Add to Cart</button>
               </div>)
       })}

@@ -1,20 +1,24 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import './HomeItem.css'
 import { assets } from '../../assets/assets'
 import { GoShare } from "react-icons/go";
 import { FiArrowRight } from "react-icons/fi";
+import { StoreContext } from '../../context/StoreContext';
 
-const HomeItem = () => {
+const HomeItem = ({bestitems}) => {
+    
+    const filterItems = bestitems.filter((ele)=>ele.pname === "chicken");
+    // console.log(filterItems)
   return (
-    <div className='homeItemContainer'>
+    <>
         <div className='homeItemImage'>
-          <img src={assets.chicken} alt='coconutoil'></img>
+          <img src={filterItems[0].img3} alt='coconutoil'></img>
         </div>
         <div className='homeItemDesc'>
         <h1>Good Quality Chicken</h1>
         <div className='homeItemPrice'>
-            <p className='cross'>$ 22.99</p>
-            <p>$ 18.00</p>
+            <p className='cross'>$ {filterItems[0].pprice+300}</p>
+            <p>$ {filterItems[0].pprice}</p>
             <p>Sale</p>
         </div>
         <ul>
@@ -45,8 +49,7 @@ const HomeItem = () => {
                 <FiArrowRight/>
             </p>
         </div>
-    </div>
+    </>
   )
 }
-
 export default HomeItem

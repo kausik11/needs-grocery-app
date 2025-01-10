@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 # to run the database
  npx json-server --watch public/Db.json --port 1000
-
+npm run server to run this database
 ## Available Scripts
 
 In the project directory, you can run:
